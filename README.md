@@ -83,8 +83,21 @@ In the example used above requires you to use letters a-z OR numbers 0-9. Anothe
 <br>
 The above example has the escape symbol highlighted, it is the back slash \, it is used to escape special characters like periods, dashes etc
 
-## Author
+## Other
+Example:
+/^([a-z0-9_\.-]+)`@`([\da-z\.-]+)\.([a-z\.]{2,6})$/
+<br>
+Within the example regex is the @ symbol which is a "literal" meaning its exactly used in the email as the @ symbol for the email thats required.
+<br>
 
+Also in the regex is curley brackets with numbers in them {2,6}, what this does is sets the amount of preceding character classes/ sets ie. setting the character limit (usually for the .com | .au | .uk etc). example below.
+<br>
+Example:
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]`{2,6}`)$/
+
+## Author
+if you need any help or have any questions in regards to this regex tutorial, feel free to contact me :)
+<br>
 [GitHub Repo](https://github.com/JRoberts94/Week17-Regex-Tutorial/blob/main/Regex-Tutorial.MD)
 <br>
 [GitHub Profile](https://github.com/JRoberts94)
