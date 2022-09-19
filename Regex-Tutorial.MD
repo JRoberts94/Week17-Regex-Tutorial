@@ -85,5 +85,6 @@ The above example has the escape symbol highlighted, it is the back slash \, it 
 
 ## Author
 
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+[GitHub Repo](https://github.com/JRoberts94/Week17-Regex-Tutorial/blob/main/Regex-Tutorial.MD)
+<br>
+[GitHub Profile](https://github.com/JRoberts94)
